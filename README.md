@@ -63,7 +63,7 @@ El jugador puede manejar la barca y navegar por el lago con ella. Movimiento WAS
 
 # Contenido
 ## Historia
-		El padre de Jimmy quiere enseñar a su hijo a pescar, pero este se muestra reacio. Es por ello que su padre decide llevarle al lago del pueblo y darle un ultimátum. Hasta que Jimmy no haya pescado los 7 peces que él le indique Jimmy no podrá bajarse de su barca y volver a casa. Por cada pez que capture su padre le dará una recompensa que le permitirá mejorar su equipamiento.
+El padre de Jimmy quiere enseñar a su hijo a pescar, pero este se muestra reacio. Es por ello que su padre decide llevarle al lago del pueblo y darle un ultimátum. Hasta que Jimmy no haya pescado los 7 peces que él le indique Jimmy no podrá bajarse de su barca y volver a casa. Por cada pez que capture su padre le dará una recompensa que le permitirá mejorar su equipamiento.
     
 ## Mapa
 El juego se desarrolla en un lago dividido por zonas. Estas se dividen en zonas de pesca (orilla del lago, isla del lago, área del lago en barco) y por otro lado las zonas donde están los NPCs interactuables (el padre y la tienda).
