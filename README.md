@@ -45,15 +45,15 @@ El jugador puede manejar la barca y navegar por el lago con ella. Movimiento WAS
 
 ### Pesca
 * Caña de pescar: La mecánica de la pesca se divide en 4 fases: 
- *Lanzamiento: El jugador apunta con el ratón al lugar donde quiere lanzar el anzuelo (eje horizontal) y pulsa “click izquierdo” para lanzarlo. Cuanto más tiempo se mantenga la pulsación del “click izquierdo” más distancia alcanzará el anzuelo.
- * Espera: Una vez lanzado el anzuelo, el jugador puede moverlo ligeramente. En el eje vertical mediante la rueda del ratón, en el eje horizontal moviendo el ratón.
- * Pescar: Si un pez muerde el anzuelo, el jugador debe recoger el sedal para sacarlo del agua, pulsando repetidamente las flechas en sentido contrario al que intenta escapar el pez.  La tensión y estrés al que se expone la caña se mide en un marcador situado en la parte superior de la pantalla. En caso de que la caña sobrepase la tensión máxima esta se partirá y el pez se escapará.
- * Cancelar: En caso de que el jugador haya lanzado el anzuelo al agua y aún no haya picado ningún pez, el jugador puede recoger el sedal pulsando el botón izquierdo del ratón.
+    *Lanzamiento: El jugador apunta con el ratón al lugar donde quiere lanzar el anzuelo (eje horizontal) y pulsa “click izquierdo” para lanzarlo. Cuanto más tiempo se mantenga la pulsación del “click izquierdo” más distancia alcanzará el anzuelo.
+    * Espera: Una vez lanzado el anzuelo, el jugador puede moverlo ligeramente. En el eje vertical mediante la rueda del ratón, en el eje horizontal moviendo el ratón.
+    * Pescar: Si un pez muerde el anzuelo, el jugador debe recoger el sedal para sacarlo del agua, pulsando repetidamente las flechas en sentido contrario al que intenta escapar el pez.  La tensión y estrés al que se expone la caña se mide en un marcador situado en la parte superior de la pantalla. En caso de que la caña sobrepase la tensión máxima esta se partirá y el pez se escapará.
+    * Cancelar: En caso de que el jugador haya lanzado el anzuelo al agua y aún no haya picado ningún pez, el jugador puede recoger el sedal pulsando el botón izquierdo del ratón.
 
 ## Dinámicas
 * Objetivo del juego:
- * Corto/medio plazo: Completar todos los encargos del padre. Al completar los encargos se irán desbloqueando las diferentes zonas del mapa. 
- * Largo plazo: Una vez completado el mapa, el jugador puede seguir pescando libremente para completar el bestiario, pues su padre da por completada su misión de instruir a su hijo en dicho deporte.
+    * Corto/medio plazo: Completar todos los encargos del padre. Al completar los encargos se irán desbloqueando las diferentes zonas del mapa. 
+     * Largo plazo: Una vez completado el mapa, el jugador puede seguir pescando libremente para completar el bestiario, pues su padre da por completada su misión de instruir a su hijo en dicho deporte.
 
 ## Estética
 * Ambientación y gráficos: Lowpoly  
