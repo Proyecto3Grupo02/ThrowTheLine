@@ -145,23 +145,29 @@ Precio: 5000
 |Carpa|1,2|Anzuelo Brillante|China|20|
 |Salmón|1,2|Gusano|China|25|
 |Arowana|2|Gusano|China|30|
+|Pez gato|2,3|Anzuelo Triple|DeCarthón|35|
+|Pez cirujano|2|Anzuelo Triple|DeCarthón|40|
+|Trucha arcoiris|2|Pez Goma|DeCarthón|45|
+|Atún|2,3|Pez Goma|ShinMano|50|
+|Siluro|3|Señuelo Único|ShinMano|70|
+|PexPlatija|3|Señuelo Único|ShinMano|100|
 
 #### Bestiario
-* Muelle: Parece que alguien lo ha tirado por el retrete.
-* Bota: Es basura tirada por alguien al agua. Mejor reciclar.
-* Alga: A veces es lo único que obtienes cuando recoges sedal. Para hacer sushi.
-* Betta: Nunca pudo ser el alfa del banco.
-* Pez payaso: El gracioso de la clase.
-* Percasol: Taste the sun! Pequeño pez de colores vibrantes, gran depredador, muy agresivo.
-* Carpa: Menudo carpote con su pedazo panzote.
-* Salmón: Mon,mon…
-* Arowana: Pez muy frágil que despliega sus escamas cuando se siente amenazado, mejor no acercarlo al fuego.
-* Pez gato: Menudos bigotes marramiau.
-* Pez cirujano: ¡A que te raja!
-* Trucha arcoiris: Pez con un color irisado, muy común en ríos.
-* Atún: Claro, Calvo.
-* Siluro: ¡Que pez más grande y oscuro!
-* PexPlatija: Pez poco común, conocido comúnmente como PePa.
+* **Muelle:** Parece que alguien lo ha tirado por el retrete.
+* **Bota:** Es basura tirada por alguien al agua. Mejor reciclar.
+* **Alga:** A veces es lo único que obtienes cuando recoges sedal. Para hacer sushi.
+* **Betta:** Nunca pudo ser el alfa del banco.
+* **Pez payaso:** El gracioso de la clase.
+* **Percasol:** Taste the sun! Pequeño pez de colores vibrantes, gran depredador, muy agresivo.
+* **Carpa:** Menudo carpote con su pedazo panzote.
+* **Salmón:** Mon,mon…
+* **Arowana:** Pez muy frágil que despliega sus escamas cuando se siente amenazado, mejor no acercarlo al fuego.
+* **Pez gato:** Menudos bigotes marramiau.
+* **Pez cirujano:** ¡A que te raja!
+* **Trucha arcoiris:** Pez con un color irisado, muy común en ríos.
+* **Atún:** Claro, Calvo.
+* **Siluro:** ¡Que pez más grande y oscuro!
+* **PexPlatija:** Pez poco común, conocido comúnmente como PePa.
 
 # Primeros minutos de juego
 El jugador tendrá un resumen de la historia para entender su objetivo. A continuación, el padre le mandará su primer encargo. El jugador conseguirá el primer pez y tras ello volverá a hablar con su padre. Éste le informará de que ha desbloqueado nuevos ítems en la tienda y le mandará su segundo encargo. 
