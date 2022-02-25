@@ -17,7 +17,7 @@ Throw the Line es un juego de pesca para PC en el que el jugador toma el rol de 
 
 ## **Páginas de interés**
 ### [Página web]()
-### [Pivotal Tracker](https://www.pivotaltracker.com/n/projects/2551633)
+### [Pivotal Tracker](https://www.pivotaltracker.com/n/projects/2555675)
 ### [Repositorio](https://github.com/Proyecto3Grupo02)
 ### [Informe Testing/QA]()
 
@@ -26,7 +26,7 @@ Throw the Line es un juego de pesca para PC en el que el jugador toma el rol de 
 El esquema del menú principal es simple, tiene botones para empezar el juego, cargar una partida existente (???), opciones y cerrar el juego .
 
 ## Pantalla de controles
-*Imagen*
+![image](https://user-images.githubusercontent.com/62613312/155684696-722c03ad-c85b-4c0d-9a96-755999c59d83.png)
 
 ## Menú de opciones (in-game)
 Control de volumen
