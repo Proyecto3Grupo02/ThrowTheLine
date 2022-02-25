@@ -134,7 +134,7 @@ Caña con skin dorada: Una caña mazo molona. Resistencia bajísima.
 Precio: 5000
 
 ### Peces
-| NOMBRE | ZONA DEL MAPA | OBJETOS NECESARIOS | CAÑA | PRECIONombre |
+| NOMBRE | ZONA DEL MAPA | OBJETOS NECESARIOS | CAÑA | PRECIO |
 |--- | --- | --- | --- | --- |
 |Muelle|2,3|Ninguna|Zarrapastrosa|5|
 |Bota|1,2|Ninguna|Zarrapastrosa|1|
