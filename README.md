@@ -16,8 +16,8 @@ Documento de diseño de juego
 Throw the Line es un juego de pesca para PC desarrollado por Kirin Studios en el que el jugador toma el rol de Jimmy, un niño que ha sido enviado a un lago por su padre. 
 
 ## **Páginas de interés**
-* [Pivotal Tracker](https://www.pivotaltracker.com/n/projects/2555675)
-* [Repositorio](https://github.com/Proyecto3Grupo02)
+* [**Pivotal Tracker**](https://www.pivotaltracker.com/n/projects/2555675)
+* [**Repositorio**](https://github.com/Proyecto3Grupo02)
 * [**Motor**](https://github.com/Proyecto3Grupo02/Aegis)
 
 # Menú
@@ -26,7 +26,7 @@ El esquema del menú principal es simple, tiene botones para empezar el juego y 
 ![image](https://user-images.githubusercontent.com/62613312/155684851-8c25cb54-95e8-4b07-8091-d1dc2f85de17.png)
 
 ## Pantalla de controles
-![image](https://user-images.githubusercontent.com/62613312/155684696-722c03ad-c85b-4c0d-9a96-755999c59d83.png)
+![controles](https://user-images.githubusercontent.com/62613312/166981377-a8ed4962-0349-4498-a863-af1d43222108.jpg)
 
 ## Menú de opciones (in-game)
 * Control de volumen
