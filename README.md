@@ -22,8 +22,8 @@ Throw the Line es un juego de pesca para PC desarrollado por Kirin Studios en el
 
 # Menú
 ## Menú principal
-El esquema del menú principal es simple, tiene botones para empezar el juego y cerrar la aplicación.
-![image](https://user-images.githubusercontent.com/62613312/155684851-8c25cb54-95e8-4b07-8091-d1dc2f85de17.png)
+El esquema del menú principal es simple, tiene botones para empezar el juego, consultar los controles, y ver un resumén de la historia del personaje principal.
+![image](https://user-images.githubusercontent.com/62613312/175510297-043e1df2-5491-4a69-862b-7313726bcdcc.png)
 
 ## Pantalla de controles
 ![controles](https://user-images.githubusercontent.com/62613312/166981377-a8ed4962-0349-4498-a863-af1d43222108.jpg)
