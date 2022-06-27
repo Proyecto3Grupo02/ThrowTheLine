@@ -112,6 +112,7 @@ function table.GetNew(entity, params)
 
 	function OnCollision(other)
         print("Colision general character");
+        
 	end;
 	function OnTrigger(other) end;
 
