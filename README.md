@@ -15,6 +15,17 @@ Documento de diseño de juego
 **Descripción:**
 Throw the Line es un juego de pesca para PC desarrollado por Kirin Studios en el que el jugador toma el rol de Jimmy, un niño que ha sido enviado a un lago por su padre. 
 
+## **Como Jugar a Throw The Line:**
+1) Clonar repo ThrowTheLine
+2) gitBash inicializar el submodulo ==> **$ git submodule update --init**
+3) Actualizar/pull submodulo ==> **$ git submodule foreach git pull origin main**
+4) Abrir el sln del submodulo y configurar el Directorio de trabajo:
+```
+depuracion > directorio de trabajo > $(SolutionDir)Exes$(ProjectName)$(Platform)$(Configuration)\
+```
+5) Ctrl+Ñ ==> Ejecutar el build_up.bat
+6) Ir a la carpeta Build y ejecutar **AegisEngine.exe**
+
 ## **Páginas de interés**
 * [Pivotal Tracker](https://www.pivotaltracker.com/n/projects/2555675)
 * [Repositorio](https://github.com/Proyecto3Grupo02)
