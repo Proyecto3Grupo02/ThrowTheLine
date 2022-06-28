@@ -21,7 +21,7 @@ Throw the Line es un juego de pesca para PC desarrollado por Kirin Studios en el
 3) Actualizar/pull submodulo ==> **$ git submodule foreach git pull origin main**
 4) Abrir el sln del submodulo y configurar el Directorio de trabajo en ambas configuraciones:
 ```
-depuracion > directorio de trabajo > $(SolutionDir)Exes\$(ProjectName)\$(Platform)\$(Configuration)\
+depuracion > directorio de trabajo > $(SolutionDir)Exes\AegisEngine\$(Platform)\$(Configuration)
 ```
 5) Ctrl+Ñ ==> Ejecutar el build_up.bat
 6) Ir a la carpeta Build y ejecutar **AegisEngine.exe**
