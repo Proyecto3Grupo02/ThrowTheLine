@@ -124,7 +124,7 @@ local scene = {
 				type = "Spawner",
 				data = 
 				{
-					bait = "@Anzuelo",
+					--bait = "@Anzuelo",
 					score = "@ScoreManager.UIScoreManager"
 				}
 			}

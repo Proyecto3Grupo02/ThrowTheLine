@@ -12,8 +12,9 @@ function table.GetNew(entity, params)
     local maxFish = 10;
     data.currFish = 0;
     local randomMovement;
-    data.bait = "bait";
+    --data.bait = "bait";
     data.score = "score"
+    data.spawner = "Spawner"
     function Init() 
 		lastTime = 1;
 		acumulatedDT=0;
@@ -27,16 +28,19 @@ function table.GetNew(entity, params)
                 local fish = SceneManager:GetCurrentScene():InstantiatePrefab(prefabs[math.random(#prefabs)]);
                 local rbFish = fish:GetComponent("Rigidbody").type;
                 local randomMovement = fish:GetComponent("RandomMovement");
-                randomMovement.data.bait = data.bait;
+                --randomMovement.data.bait = data.bait;
                 randomMovement.data.score = data.score;
-                
+               --randomMovement.data.spawner = ;
                 data.currFish = data.currFish+1;
 		end;
 		acumulatedDT = acumulatedDT + deltaTime;
 	end;
-    
+    function Fished()
+        data.currFish = data.currFish-1;
+    end;
 	funcs.init = Init;
     funcs.update = Update;
+    funcs.fished = Fished;
 	return component;
 end;
 return table;

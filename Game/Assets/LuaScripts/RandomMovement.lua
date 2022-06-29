@@ -16,9 +16,9 @@ function table.GetNew(entity, params)
 	local random2; 
 	local wandering;
 	local scoreManagerScrpit;
-	data.bait = "Bait"
+	--data.bait = "Bait"
 	data.score = "Score"
-
+	data.spawner = "Spawner"
     function Init() 
         rigidbody = component.entity:GetComponent("Rigidbody").type;
 		lastTime=1;
@@ -30,10 +30,11 @@ function table.GetNew(entity, params)
 		random = 0;
 		random2 = 0;
 		rigidbody:SetAngular();
-		print(data.bait:GetName());
+		--print(data.bait:GetName());
 		--rigidbody:SetPosition(Aegis.Maths.Vector3(0,-57,0));
 		rigidbody:FreezeRot(true,false,true)
 		wandering = true;
+		
     end;
 
 	function Update(deltaTime) 
@@ -81,7 +82,8 @@ end;
 		if other:GetName() == 'Anzuelo' then
 			print("Colision de un pez con el anzuelo");
 			data.score.funcs.updateScore();
-			entity:Destroy();			
+			entity:Destroy();		
+			data.spawner.funcs.fished();	
 		end;
 	end;
 
