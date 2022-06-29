@@ -9,7 +9,8 @@ function table.GetNew(entity, params)
 	local acumulatedDT;
     local lastTime;
     local prefabs = require "Prefabs";
-    local maxFish = 5;
+    local maxFish;
+    local totalFishes;
 
     data.currFish = 0;
     data.score = "score"
@@ -17,11 +18,13 @@ function table.GetNew(entity, params)
     function Init() 
 		lastTime = 5;
 		acumulatedDT=0;
+        maxFish = 5;
+        totalFishes = 0;
         
     end;
 
 	function Update(deltaTime) 
-		if acumulatedDT > lastTime and data.currFish < maxFish then
+		if acumulatedDT > lastTime and data.currFish < maxFish and totalFishes < 10 then
             acumulatedDT = acumulatedDT - lastTime;
             print("Spawning fesh");
             --print(acumulatedDT);
@@ -35,6 +38,7 @@ function table.GetNew(entity, params)
             randomMovement.data.spawner = component;
 
             data.currFish = data.currFish + 1;
+            totalFishes = totalFishes + 1;
 		end;
 		acumulatedDT = acumulatedDT + deltaTime;
 	end;
