@@ -7,7 +7,6 @@ local scene =
         type = "Entity",
 		name = "PrefabFish0",
 		scale = {x = 0.5, y = 0.5, z =0.5},
-		position = { y = -57},
 		components = {
 			{
 				type = "Renderer",
@@ -32,7 +31,6 @@ local scene =
         type = "Entity",
 		name = "PrefabFish1",
 		scale = {x = 0.5, y = 0.5, z =0.5},
-		position = { y = -57},
 		components = {
 			{
 				type = "Renderer",
@@ -57,7 +55,6 @@ local scene =
         type = "Entity",
 		name = "PrefabFish2",
 		scale = {x = 0.5, y = 0.5, z =0.5},
-		position = { y = -57},
 		components = {
 			{
 				type = "Renderer",
@@ -82,7 +79,6 @@ local scene =
         type = "Entity",
 		name = "PrefabPezBetta",
 		scale = {x = 0.5, y = 0.5, z =0.5},
-		position = { y = -57},
 		components = {
 			{
 				type = "Renderer",
@@ -107,7 +103,6 @@ local scene =
         type = "Entity",
 		name = "PrefabPezCirujano",
 		scale = {x = 0.5, y = 0.5, z =0.5},
-		position = { y = -57},
 		components = {
 			{
 				type = "Renderer",
@@ -132,7 +127,6 @@ local scene =
         type = "Entity",
 		name = "PrefabPezPayaso",
 		scale = {x = 0.5, y = 0.5, z =0.5},
-		position = { y = -57},
 		components = {
 			{
 				type = "Renderer",
@@ -157,7 +151,6 @@ local scene =
         type = "Entity",
 		name = "PrefabPezArowana",
 		scale = {x = 0.5, y = 0.5, z =0.5},
-		position = { y = -57},
 		components = {
 			{
 				type = "Renderer",

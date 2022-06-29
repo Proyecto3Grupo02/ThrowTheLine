@@ -3,7 +3,6 @@
 local NAME = "TerrainScene";
 local scene = {
 -- camera and light
-
 		{
 			type = "MainCamera",
 			position = { z = 10, y = 3  },
@@ -125,7 +124,6 @@ local scene = {
 				type = "Spawner",
 				data = 
 				{
-					bait = "@Anzuelo",
 					score = "@ScoreManager.UIScoreManager"
 				}
 			}
@@ -356,9 +354,5 @@ local scene = {
 			}
 		}
 	},
-
-
-
-	
 };
 return scene;

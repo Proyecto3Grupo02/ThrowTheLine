@@ -16,9 +16,8 @@ function table.GetNew(entity, params)
 	local random2; 
 	local wandering;
 	local scoreManagerScrpit;
-	data.bait = "Bait"
 	data.score = "Score"
-
+	data.spawner = "Spawner"
     function Init() 
         rigidbody = component.entity:GetComponent("Rigidbody").type;
 		lastTime=1;
@@ -30,10 +29,10 @@ function table.GetNew(entity, params)
 		random = 0;
 		random2 = 0;
 		rigidbody:SetAngular();
-		print(data.bait:GetName());
 		--rigidbody:SetPosition(Aegis.Maths.Vector3(0,-57,0));
 		rigidbody:FreezeRot(true,false,true)
 		wandering = true;
+		
     end;
 
 	function Update(deltaTime) 
@@ -53,8 +52,8 @@ function table.GetNew(entity, params)
 	function FixedUpdate() 
 		
 		if wandering then
-		rigidbody:SetRotationEuler(transform.localEulerAngles + Aegis.Maths.Vector3(0,root / 10,0));
-		rigidbody:AccelerateTo(transform.forward * -1 * 7, 10000000);
+			rigidbody:SetRotationEuler(transform.localEulerAngles + Aegis.Maths.Vector3(0,root / 10,0));
+			rigidbody:AccelerateTo(transform.forward * -1 * 7, 10000000);
 		
 		
 			if ray then
@@ -62,32 +61,31 @@ function table.GetNew(entity, params)
 				local origin = transform.position;
 				local otherEntity = rigidbody:RayCastWorld(origin, dest, 10);
 				if otherEntity ~= nil and otherEntity:GetComponent("Rigidbody").type ~= nil then
-				print(otherEntity:GetName());
+					print(otherEntity:GetName());
 					
-						local otherRb = otherEntity:GetComponent("Rigidbody").type;
-						if otherRb.mass == 0 then 					
-							rigidbody:SetRotationEuler(transform.localEulerAngles + Aegis.Maths.Vector3(0,180,0));
-							rigidbody:AccelerateTo(transform.forward * -1 * 7, 10000000);
-						end;
-
-						if otherEntity:GetName() == 'Anzuelo' then
-							wandering = false;
-						end;
+					local otherRb = otherEntity:GetComponent("Rigidbody").type;
+					if otherRb.mass == 0 then 					
+						rigidbody:SetRotationEuler(transform.localEulerAngles + Aegis.Maths.Vector3(0,180,0));
+						rigidbody:AccelerateTo(transform.forward * -1 * 7, 10000000);
 					end;
+
+					if otherEntity:GetName() == 'Anzuelo' then
+							wandering = false;
+					end;
+				end;
 				
 				ray = false;
-				
 			end;
 		end;
 	end;
-
 
 	function OnTrigger(other)
 		print(other:GetName());
 		if other:GetName() == 'Anzuelo' then
 			print("Colision de un pez con el anzuelo");
 			data.score.funcs.updateScore();
-			entity:Destroy();			
+			entity:Destroy();		
+			data.spawner.funcs.fished();	
 		end;
 	end;
 
