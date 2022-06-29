@@ -56,11 +56,11 @@ El jugador puede navegar por el lago mediante el ratón y las teclas WASD.
 El jugador puede pescar pulsando la tecla SPACE para pasar a primera persona, y luego el botón izquierdo del ratón para soltar el anzuelo.
 
 # Dinámicas:
-El objetivo del juego es pescar todos los peces en el lago.
+El objetivo del juego es pescar todos los peces en el lago, incluyendo los pocos que spawnean tras haber pescado alguno.
 
 # Contenido:
 ## Historia:
-El padre de Jimmy quiere enseñar a su hijo a pescar, pero este se muestra reacio. Es por ello que su padre decide llevarle al lago del pueblo y darle un ultimátum. Hasta que Jimmy no haya pescado los 7 peces que él le indique Jimmy no podrá bajarse de su barca y volver a casa. Por cada pez que capture su padre le dará una recompensa que le permitirá mejorar su equipamiento.
+El padre de Jimmy quiere enseñar a su hijo a pescar, pero este se muestra reacio. Es por ello que su padre decide llevarle al lago del pueblo y darle un ultimátum. Hasta que Jimmy no haya pescado los 10 peces que él le indique Jimmy no podrá bajarse de su barca y volver a casa. Por cada pez que capture su padre le dará una recompensa que le permitirá mejorar su equipamiento.
 
 ## Personajes
 ### Jimmy
