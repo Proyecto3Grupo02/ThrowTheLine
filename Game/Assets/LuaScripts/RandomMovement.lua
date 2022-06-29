@@ -16,7 +16,6 @@ function table.GetNew(entity, params)
 	local random2; 
 	local wandering;
 	local scoreManagerScrpit;
-	--data.bait = "Bait"
 	data.score = "Score"
 	data.spawner = "Spawner"
     function Init() 
@@ -30,7 +29,6 @@ function table.GetNew(entity, params)
 		random = 0;
 		random2 = 0;
 		rigidbody:SetAngular();
-		--print(data.bait:GetName());
 		--rigidbody:SetPosition(Aegis.Maths.Vector3(0,-57,0));
 		rigidbody:FreezeRot(true,false,true)
 		wandering = true;

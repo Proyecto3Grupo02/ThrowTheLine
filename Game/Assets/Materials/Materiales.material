@@ -75,7 +75,6 @@ material agua_material
 			diffuse 0.5 0.5 0.7 0.5
 			ambient 0.5 0.5 0.7 0.5
 			scene_blend alpha_blend
-			depth_write off	
 			texture_unit
 			{
 				texture agua.jpg
