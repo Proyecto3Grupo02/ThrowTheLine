@@ -83,7 +83,7 @@ local scene = {
 				{
 					useGravity = false,
 					isTrigger = true,
-					scale = 5
+					scale = 7
 				}
 			},
 			{
