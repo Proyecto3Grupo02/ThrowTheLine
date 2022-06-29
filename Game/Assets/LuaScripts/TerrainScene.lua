@@ -3,6 +3,7 @@
 local NAME = "TerrainScene";
 local scene = {
 -- camera and light
+
 		{
 			type = "MainCamera",
 			position = { z = 10, y = 3  },
@@ -83,7 +84,7 @@ local scene = {
 				{
 					useGravity = false,
 					isTrigger = true,
-					scale = 20
+					scale = 5
 				}
 			},
 			{
@@ -124,6 +125,7 @@ local scene = {
 				type = "Spawner",
 				data = 
 				{
+					bait = "@Anzuelo",
 					score = "@ScoreManager.UIScoreManager"
 				}
 			}
@@ -145,21 +147,21 @@ local scene = {
 				}
 			}
 		},
-		-- {
-		-- 	type = "Entity",
-		-- 	name = "Agua",
-		-- 	position = { y = -50 },
-		-- 	scale = { x = 50, y = 50, z = 50},
-		-- 	components = {
-		-- 		{
-		-- 			type = "Renderer",
-		-- 			data = {
-		-- 				mesh = "Agua.mesh",
-		-- 				material= "agua_material"
-		-- 			}
-		-- 		}
-		-- 	}
-		-- },
+		{
+			type = "Entity",
+			name = "Agua",
+			position = { y = -50 },
+			scale = { x = 50, y = 50, z = 50},
+			components = {
+				{
+					type = "Renderer",
+					data = {
+						mesh = "Agua.mesh",
+						material= "agua_material"
+					}
+				}
+			}
+		},
 		{
 			type = "Entity",
 			name = "ParedFrontal",
@@ -354,5 +356,9 @@ local scene = {
 			}
 		}
 	},
+
+
+
+	
 };
 return scene;
