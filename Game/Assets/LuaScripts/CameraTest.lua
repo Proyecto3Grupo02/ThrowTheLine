@@ -20,10 +20,10 @@ function table.GetNew(entity, params)
         freezeCamera = true;
     end;
 	function Update(deltaTime)
-        --Freeze the camera the first second of the game
+        --Freeze the camera the first 2 seconds of the game
         if freezeCamera then
             freezeTimer = freezeTimer + deltaTime;
-            if freezeTimer > 1 then
+            if freezeTimer > 2 then
                 freezeCamera = false;
             end;
         end;

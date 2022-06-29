@@ -33,6 +33,7 @@ function table.GetNew(entity, params)
 		print(data.bait:GetName());
 		--rigidbody:SetPosition(Aegis.Maths.Vector3(0,-57,0));
 		rigidbody:FreezeRot(true,false,true)
+		wandering = true;
     end;
 
 	function Update(deltaTime) 
@@ -75,7 +76,7 @@ function table.GetNew(entity, params)
 	end;
 end;
 
-	function OnCollision(other)
+	function OnTrigger(other)
 		print(other:GetName());
 		if other:GetName() == 'Anzuelo' then
 			print("Colision de un pez con el anzuelo");
@@ -83,13 +84,11 @@ end;
 			entity:Destroy();			
 		end;
 	end;
-	
-	function OnTrigger(other) end;
 
 	funcs.init = Init;
     funcs.update = Update;
     funcs.fixedUpdate = FixedUpdate;
-    funcs.onCollisionEnter = OnCollision;
+    funcs.onTriggerEnter = OnTrigger;
 	return component;
 end;
 return table;
