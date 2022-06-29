@@ -82,6 +82,7 @@ local scene = {
 				data = 
 				{
 					useGravity = false,
+					isTrigger = true,
 					scale = 20
 				}
 			},

@@ -37,32 +37,32 @@ function table.GetNew(entity, params)
             rigidbody.position = Aegis.Maths.Vector3((transform.position.x+data.player.transform.position.x),transform.position.y+data.player.transform.position.y,transform.position.z+data.player.transform.position.z);              
             transform.localEulerAngles = data.player.transform.localEulerAngles;
         end;   
-        if ready then
-            if Input:IsMouseButtonDown(0)then
-               throwForce = throwForce + deltaTime * 3
-            end
-            if Input:MouseButtonWasReleased(0)then
-                if throwForce>maxForce then
-                    throwForce = maxForce
-                end;
-                --rigidbody:AddForce(Aegis.Maths.Vector3(0,throwForce*20,throwForce*-150))
+        -- if ready then
+        --     if Input:IsMouseButtonDown(0)then
+        --        throwForce = throwForce + deltaTime * 3
+        --     end
+        --     if Input:MouseButtonWasReleased(0)then
+        --         if throwForce>maxForce then
+        --             throwForce = maxForce
+        --         end;
+        --         --rigidbody:AddForce(Aegis.Maths.Vector3(0,throwForce*20,throwForce*-150))
               
-                rigidbody:AddForce(transform.forward  * throwForce * -100)
-                rigidbody.useGravity=true
-            end;
-        else 
-            throwForce=0
-            rigidbody.useGravity=false
-            rigidbody:ClearForce();
-            rigidbody.position = offset
-            rigidbody:EnableCol(false);
-        end
+        --         rigidbody:AddForce(transform.forward  * throwForce * -100)
+        --         rigidbody.useGravity=true
+        --     end;
+        -- else 
+        --     throwForce=0
+        --     rigidbody.useGravity=false
+        --     rigidbody:ClearForce();
+        --     rigidbody.position = offset
+        --     rigidbody:EnableCol(false);
+        -- end
 
-        if rigidbody.position.y < WATER_Y and rigidbody.useGravity then
-            rigidbody:ClearForce();
-            rigidbody.useGravity=false;
-            rigidbody:EnableCol(true);         
-        end;
+        -- if rigidbody.position.y < WATER_Y and rigidbody.useGravity then
+        --     rigidbody:ClearForce();
+        --     rigidbody.useGravity=false;
+        --     rigidbody:EnableCol(true);         
+        -- end;
     end;
 
     function LateUpdate(deltaTime) end;
@@ -71,14 +71,14 @@ function table.GetNew(entity, params)
 
     end;
 
-	function OnCollision(other)
+	function OnTrigger(other)
         print("Colision del anzuelo con algo");
     end;
 
 	funcs.init = Init;
     funcs.update = Update;
     funcs.fixedUpdate = FixedUpdate;
-    funcs.onCollisionEnter = OnCollision;
+    funcs.onTriggerEnter = OnTrigger;
 	return component;
 end;
 return table;

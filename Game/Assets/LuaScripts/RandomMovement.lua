@@ -14,6 +14,7 @@ function table.GetNew(entity, params)
 	local lastTimeRay; 
 	local random; 
 	local random2; 
+	local wandering;
 	local scoreManagerScrpit;
 	data.bait = "Bait"
 	data.score = "Score"
@@ -50,6 +51,7 @@ function table.GetNew(entity, params)
 
 	function FixedUpdate() 
 		
+		if wandering then
 		rigidbody:SetRotationEuler(transform.localEulerAngles + Aegis.Maths.Vector3(0,root / 10,0));
 		rigidbody:AccelerateTo(transform.forward * -1 * 7, 10000000);
 		
@@ -67,10 +69,11 @@ function table.GetNew(entity, params)
 			rigidbody:AccelerateTo(transform.forward * -1 * 7, 10000000);
 			end;
 			if rayCastResult == 2 then
-				
+				wandering = false;
 			end;
 		end;
 	end;
+end;
 
 	function OnCollision(other)
 		print(other:GetName());
