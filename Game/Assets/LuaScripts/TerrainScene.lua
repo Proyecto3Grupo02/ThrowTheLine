@@ -354,5 +354,18 @@ local scene = {
 			}
 		}
 	},
+	{
+		type = "Entity",
+		name = "skyboxEnt",
+		components = {
+			{
+				type ="Skybox",
+				data = {
+					material = "skyboxMat",
+					print("sky times game");
+				}
+			}
+		}
+	},
 };
 return scene;

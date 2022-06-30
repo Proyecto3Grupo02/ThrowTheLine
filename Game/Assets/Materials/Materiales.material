@@ -170,3 +170,19 @@ material playerMat // nombre
 		}
 	}
 }
+material skyboxMat // nombre
+{
+	technique //al menos una
+	{
+		pass //al menos uno
+		{
+			diffuse 1.0 1.0 1.0
+			ambient 1.0 1.0 1.0
+			texture_unit
+			{
+				texture skybox.png
+				colour_op modulate
+			}
+		}
+	}
+}
