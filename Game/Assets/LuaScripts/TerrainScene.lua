@@ -9,7 +9,7 @@ local scene = {
 			rotation = { x = -25},
 			components = {
 				{
-					type = "CameraTest"
+					type = "CameraController"
 				}
 			}
 		},
@@ -278,6 +278,7 @@ local scene = {
 				uiData = { id = 1, text = "@scoreText" },
 				callback = function(uiData)
 					print("Button was clicked in LUA: " .. uiData.id .. " times");
+					SoundManager:PlayOneShot("clin");
 					local menuScene = require "menu";
 					SceneManager:LoadScene(menuScene);
 				end 

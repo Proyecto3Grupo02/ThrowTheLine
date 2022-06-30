@@ -7,11 +7,6 @@ local scene = {
 			type = "MainCamera",
 			position = { z = 10, y = 3  },
 			rotation = { x = -25},
-			components = {
-				{
-					type = "CameraTest"
-				}
-			}
 		},
 		{
 			type = "Entity",
@@ -81,6 +76,7 @@ local scene = {
 					print("HTP");	
 					uiData.image:SetVisible(true)
 					uiData.backButton:SetVisible(true)
+					SoundManager:PlayOneShot("clin");
 				end 
 			},
 	},
@@ -99,6 +95,7 @@ local scene = {
 				visible = true,
 				callback = function()
 					print("START");	
+					SoundManager:PlayOneShot("clin");
 					local terrainScene = require "TerrainScene";
 					SceneManager:LoadScene(terrainScene);
 				end 
@@ -120,6 +117,7 @@ local scene = {
 				uiData = { id = 1, image = "@Historia", backButton="@Back" },
 				callback = function(uiData)
 					print("STORY");	
+					SoundManager:PlayOneShot("clin");
 					uiData.image:SetVisible(true)
 					uiData.backButton:SetVisible(true)
 				end 
@@ -141,6 +139,7 @@ local scene = {
 				uiData = { id = 1, image = "@Controles", backButton="@Back" },
 				callback = function(uiData)
 					print("HTP");	
+					SoundManager:PlayOneShot("clin");
 					uiData.image:SetVisible(true)
 					uiData.backButton:SetVisible(true)
 				end 
@@ -212,8 +211,25 @@ local scene = {
 					uiData.imageC:SetVisible(false)
 					uiData.imageM:SetVisible(false)
 					uiData.backButton:SetVisible(false)
+					SoundManager:PlayOneShot("plop");
 				end 
 			},
 	},
+	{
+		type = "Entity",
+		name = "MusicLoop",
+		components = {
+		  {
+			type ="SoundEmitter",
+			data = {
+			  sound = "Menu-Ukulele",
+			  volume = 0.1,
+			  channel = "Music", -- podria ser sfx o lo que sea
+			  loopCount = -1, -- -1 means infinite loop
+			  playOnInit = true
+			}
+		  }
+		}
+	  },
 };
 return scene;

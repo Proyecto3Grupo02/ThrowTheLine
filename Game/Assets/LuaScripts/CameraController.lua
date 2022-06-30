@@ -1,4 +1,4 @@
-local NAME = "CameraTest";
+local NAME = "CameraController";
 local table = {};
 function table.GetNew(entity, params)
 	local component = Aegis.CreateComponent(NAME, entity);

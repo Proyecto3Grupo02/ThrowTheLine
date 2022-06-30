@@ -45,7 +45,7 @@ function table.GetNew(entity, params)
             else mouseB = true
             end;
             Input:BlockMouse(mouseB);
-            data.camera:GetComponent("CameraTest").enabled = mouseB;
+            data.camera:GetComponent("CameraController").enabled = mouseB;
             data.homeButton:SetVisible(not mouseB)          
         end;
         if(Input:KeyWasPressed("Space"))then

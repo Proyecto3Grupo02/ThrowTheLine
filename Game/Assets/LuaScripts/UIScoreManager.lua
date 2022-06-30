@@ -35,7 +35,7 @@ function table.GetNew(entity, params)
                 print("Enhorabuena! Todos los peces han sido pescados.\n");
                 data.win:SetVisible(true);
                 -- DEBERIA BLOQUEARSE LA CAMARA && DESPLOQUEAR RATON
-                data.camera:GetComponent("CameraTest").enabled = false;
+                data.camera:GetComponent("CameraController").enabled = false;
                 Input:BlockMouse(false);
                 data.home:SetVisible(true);
             end;
