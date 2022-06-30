@@ -52,6 +52,7 @@ function table.GetNew(entity, params)
             fishing = not fishing;
             renderer.visible = not renderer.visible;
             rigidbody:ResetVelocity()
+            --data.camera:GetComponent("CameraTest").funcs.freeze();
         end;
         if (fishing)then
             cameraTf.position = Aegis.Maths.Vector3(0,0,0)
@@ -83,7 +84,9 @@ function table.GetNew(entity, params)
             euAng = (transform.localEulerAngles -  Aegis.Maths.Vector3(0, x, 0));
         end;
         -- Lerp current Rotation to target rotation
+        if not fishing then
         rigidbody:SetRotationEuler(euAng);
+        end;
         ------------------------------------------------------
 
         -- MOVE CHARACTER:
@@ -112,7 +115,6 @@ function table.GetNew(entity, params)
 
 	function OnCollision(other)
         print("Colision general character");
-        
 	end;
 	function OnTrigger(other) end;
 

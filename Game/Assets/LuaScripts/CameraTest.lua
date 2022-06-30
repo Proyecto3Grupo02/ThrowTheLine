@@ -11,26 +11,27 @@ function table.GetNew(entity, params)
     data.smoothStep = 10;
     data.targetRotation = transform.localEulerAngles;
 
-    local freezeCamera = false;
+    data.freezeCamera = false;
+    data.fishing = false;
     local freezeTimer = 0;
 
     function Init() 
         --entity:GetComponent("Camera");
         print("Entity name " .. entity:GetName());
-        freezeCamera = true;
+        data.freezeCamera = true;
     end;
 	function Update(deltaTime)
         --Freeze the camera the first 2 seconds of the game
-        if freezeCamera then
+        if data.freezeCamera then
             freezeTimer = freezeTimer + deltaTime;
             if freezeTimer > 2 then
-                freezeCamera = false;
+                data.freezeCamera = false;
             end;
         end;
     end        
 
     function LateUpdate(deltaTime) 
-        if not freezeCamera then
+        if not data.freezeCamera and not data.fishing then
             -- Move position of transform using awsd keys witha  value of 1, save the value and normalize before applying to transform
             local move = Aegis.Maths.Vector3(0, 0, 0);
             if Input:IsKeyDown("i") then
@@ -73,10 +74,13 @@ function table.GetNew(entity, params)
 	function FixedUpdate() end;
 	function OnCollision(other) end;
 	function OnTrigger(other) end;
-
+    function Freeze()
+        data.fishing = not data.fishing;
+    end;
 	funcs.init = Init;
     funcs.update = Update;
     funcs.lateUpdate = LateUpdate;
+    funcs.freeze = Freeze;
 	return component;
 end;
 return table;
