@@ -69,21 +69,13 @@ Protagonista del juego y personaje controlado por el jugador.
 ## Peces
 Hay distintos tipos de peces.
 
-* **Muelle:** Parece que alguien lo ha tirado por el retrete.
-* **Bota:** Es basura tirada por alguien al agua. Mejor reciclar.
-* **Alga:** A veces es lo único que obtienes cuando recoges sedal. Para hacer sushi.
 * **Betta:** Nunca pudo ser el alfa del banco.
 * **Pez payaso:** El gracioso de la clase.
-* **Percasol:** Taste the sun! Pequeño pez de colores vibrantes, gran depredador, muy agresivo.
 * **Carpa:** Menudo carpote con su pedazo panzote.
 * **Salmón:** Mon,mon…
 * **Arowana:** Pez muy frágil que despliega sus escamas cuando se siente amenazado, mejor no acercarlo al fuego.
-* **Pez gato:** Menudos bigotes marramiau.
 * **Pez cirujano:** ¡A que te raja!
-* **Trucha arcoiris:** Pez con un color irisado, muy común en ríos.
 * **Atún:** Claro, Calvo.
-* **Siluro:** ¡Que pez más grande y oscuro!
-* **PexPlatija:** Pez poco común, conocido comúnmente como PePa.
 
 ## Mapa
 El juego se desarrolla en un único lago delimitado por el terreno rocoso y una piedra central. El jugador solo puede moverse por la superficie del agua en su barca, y colisiona con las rocas. 
