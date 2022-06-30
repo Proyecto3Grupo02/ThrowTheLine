@@ -72,7 +72,7 @@ function table.GetNew(entity, params)
     end;
 
 	function OnTrigger(other)
-        print("Colision del anzuelo con algo");
+       -- print("Colision del anzuelo con algo");
     end;
 
 	funcs.init = Init;

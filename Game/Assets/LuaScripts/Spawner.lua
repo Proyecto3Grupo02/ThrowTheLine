@@ -26,7 +26,7 @@ function table.GetNew(entity, params)
 	function Update(deltaTime) 
 		if acumulatedDT > nextSpawn and data.currFish < maxFish and totalFishes < 10 then
             acumulatedDT = acumulatedDT - nextSpawn;
-            print("Spawning fesh");
+            --print("Spawning fesh");
             --print(acumulatedDT);
             local fish = SceneManager:GetCurrentScene():InstantiatePrefab(prefabs[math.random(#prefabs)]);
 

@@ -61,7 +61,7 @@ function table.GetNew(entity, params)
 				local origin = transform.position;
 				local otherEntity = rigidbody:RayCastWorld(origin, dest, 10);
 				if otherEntity ~= nil and otherEntity:GetComponent("Rigidbody").type ~= nil then
-					print(otherEntity:GetName());
+					--print(otherEntity:GetName());
 					
 					local otherRb = otherEntity:GetComponent("Rigidbody").type;
 					if otherRb.mass == 0 then 					
@@ -82,7 +82,7 @@ function table.GetNew(entity, params)
 	function OnTrigger(other)
 		print(other:GetName());
 		if other:GetName() == 'Anzuelo' then
-			print("Colision de un pez con el anzuelo");
+			--print("Colision de un pez con el anzuelo");
 			data.score.funcs.updateScore();
 			entity:Destroy();		
 			data.spawner.funcs.fished();	
