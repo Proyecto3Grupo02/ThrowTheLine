@@ -347,13 +347,17 @@ local scene = {
 		type = "Entity",
 		name = "MusicLoop",
 		components = {
-			{
-				type ="SoundEmitter",
-				data = {
-					sound = "Menu-Ukulele"
-				}
+		  {
+			type ="SoundEmitter",
+			data = {
+			  sound = "Menu-Ukulele",
+			  volume = 0.1,
+			  channel = "Music", -- podria ser sfx o lo que sea
+			  loopCount = -1, -- -1 means infinite loop
+			  playOnInit = true
 			}
+		  }
 		}
-	},
+},
 };
 return scene;
