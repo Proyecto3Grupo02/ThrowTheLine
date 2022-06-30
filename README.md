@@ -33,8 +33,8 @@ AegisEngine > Propiedades > Depuración > Directorio de trabajo > $(SolutionDir)
 
 ## Índice:
 - [**Mecáncicas**](#mecánicas) 
-  - [**Navegación**](#navegación)
-  - [**Pesca**](#pesca) 
+  - [**Jugador**](#jugador)
+  - [**Peces**](#peces) 
 - [**Dináncicas**](#dinámicas) 
 - [**Contenido**](#contenido) 
   - [**Historia**](#historia)
@@ -46,17 +46,29 @@ AegisEngine > Propiedades > Depuración > Directorio de trabajo > $(SolutionDir)
 - [**Primeros minutos de partida**](#primeros-minutos-de-partida)
 ------
 
-# Mecánicas
-Las mecánicas del juego varían dependendiendo de la etapa que esté desarrollando el jugador:
+# Mecánicas:
 
-## Navegación
-El jugador puede navegar por el lago mediante el ratón y las teclas WASD. 
+## Jugador:
+Las mecánicas del juegador varían dependendiendo de la etapa que esté desarrollando el jugador:
+
+### Navegación
+El jugador puede navegar por el lago mediante el ratón y las teclas WASD. El movimiento del ratón rota la posición de la cámara principal, la cual sigue al jugador en tercera persona. Midiante las teclas WASD, la barca se desliza por el lago. El jugador colisiona tanto con los bordes del lago, como con la roca central. No puede salir del lago en ningún momento.
+
+Al pulsar la tecla P, el movimiento de la cámara se bloquea y aparece el botón "Home" en la esquina superior izquierda (ver [**Interfaz**](#interfaz)). Si vuelve a pulsar la tecla P volverá a poder mover la cámara.
+
+Si se pulsa la tecla SPACE, el jugador pasa a la fase de Pesca.
 
 ### Pesca
-El jugador puede pescar pulsando la tecla SPACE para pasar a primera persona, y luego el botón izquierdo del ratón para soltar el anzuelo.
+En la fase de pesca, la cámara se pone en primera persona, y aparece visible la caña con el anzuelo. Al pulsar el botón izquierdo del ratón, el anzuelo se suelta y cae al agua. Si algún pez choca con él desaparece del lago y se considera que este ha sido pescado. El anzuelo solo se recoge si se vuleve a pulsar la tecla SPACE, lo cual debuelve el jugador a la fase de navegación.
+
+## Peces:
+En el lago hay peces merodeando en cada momento. Estos son instanciados durante la ejecución
+MAXIMO????????
+INTERVALO???????????????'
 
 # Dinámicas:
 El objetivo del juego es pescar todos los peces en el lago, incluyendo los pocos que spawnean tras haber pescado alguno.
+???????????
 
 # Contenido:
 ## Historia:
@@ -67,8 +79,7 @@ El padre de Jimmy quiere enseñar a su hijo a pescar, pero este se muestra reaci
 Protagonista del juego y personaje controlado por el jugador.
 
 ## Peces
-Hay distintos tipos de peces.
-
+Hay distintos tipos de peces:
 * **Betta:** Nunca pudo ser el alfa del banco.
 * **Pez payaso:** El gracioso de la clase.
 * **Carpa:** Menudo carpote con su pedazo panzote.
