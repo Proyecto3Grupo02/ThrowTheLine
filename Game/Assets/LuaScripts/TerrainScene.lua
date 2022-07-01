@@ -13,6 +13,21 @@ local scene = {
 				}
 			}
 		},
+		
+		{
+			type="Entity",
+			position = { x = 0, y = 0, z = 0 },
+			rotation = { x = 0, y = 0, z = 0 },
+			components = {
+				{
+					type = "Skybox",
+					data={
+						material = "MySky"
+					}
+				}
+			}
+		},
+		
 		{
 			type = "Entity",
 			name = "light",

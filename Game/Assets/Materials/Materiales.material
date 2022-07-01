@@ -170,3 +170,22 @@ material playerMat // nombre
 		}
 	}
 }
+
+
+material MySky
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            depth_write off
+            texture_unit
+            {
+                cubic_texture skybox_front.png skybox_back.png skybox_right.png skybox_left.png skybox_up.png skybox_down.png separateUV
+                
+            }
+        }
+    }
+}
+
