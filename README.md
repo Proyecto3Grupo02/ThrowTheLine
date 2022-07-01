@@ -93,10 +93,18 @@ El juego se desarrolla en un único lago delimitado por el terreno rocoso y una 
 
 # Estética:
 Ambientación y gráficos Lowpoly inpirado por:
-* [Pack de Kenney 1](https://www.kenney.nl/assets/survival-kit)
-* [Pack de Kenney 2](https://www.kenney.nl/assets/survival-kit)
-* [Pack de Kenney 3](https://www.kenney.nl/assets/survival-kit)
-* [Pack de Kenney 4](https://www.kenney.nl/assets/survival-kit)
+* [Pack de Kenney](https://www.kenney.nl/assets/survival-kit)
+
+Assets:
+* [Barca](https://www.kenney.nl/assets/watercraft-pack)
+* [Caña de pescar](https://sketchfab.com/3d-models/fishes-aa31604aa3d446b59775dd9e5a08a9ce)
+
+Peces sacados de:
+* [Peces Carpa, Salmón y Atún](https://sketchfab.com/3d-models/fishes-aa31604aa3d446b59775dd9e5a08a9ce)
+* [Pez Betta](https://sketchfab.com/3d-models/red-betta-fish-e088615fe2934a92be6316782d25f93a)
+* [Pez Payaso](https://sketchfab.com/3d-models/clown-fish-ff433d9d2565435fa2734f99f519a6a9)
+* [Pez Arowana](https://sketchfab.com/3d-models/red-arowana-2233d0fc783a4c45843b4d74b62784a3)
+* [Pez Cirujano](https://sketchfab.com/3d-models/fish-5fd6e52ab986427aa706c3376b2f86e0)
 
 # Interfaz:
 ## Menú
