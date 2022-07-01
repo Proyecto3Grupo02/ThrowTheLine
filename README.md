@@ -6,7 +6,7 @@ Documento de diseño de juego
 
 **Grupo 2 - Kirin Studios**
 
-*Jonathan Sebastián Andrade Gordillo | Álvaro Cuerva Hernández | Rubén González Ortiz | Sergio Alberto Luis Cano | Javier Meitín Moreno | Nicolás Rosa Caballero | Amparo Rubio Bellón | Rodrigo Tobar Guillén | Jorge Zurdo Izquierdo*
+|Jonathan Sebastián Andrade Gordillo|Rubén González Ortiz | Álvaro Cuerva Hernández |Sergio Alberto Luis Cano |Javier Meitín Moreno| Nicolás Rosa Caballero | Amparo Rubio Bellón |Rodrigo Tobar Guillén|Jorge Zurdo Izquierdo| |--|--|--|--|--|--|--|--|--|
 
 | **Géneros:** Exploración, gestión de recursos | **Modos:** Modo historia un jugador |
 | --- | --- |
@@ -62,13 +62,10 @@ Si se pulsa la tecla SPACE, el jugador pasa a la fase de Pesca.
 En la fase de pesca, la cámara se pone en primera persona, y aparece visible la caña con el anzuelo. Al pulsar el botón izquierdo del ratón, el anzuelo se suelta y cae al agua. Si algún pez choca con él desaparece del lago y se considera que este ha sido pescado. El anzuelo solo se recoge si se vuleve a pulsar la tecla SPACE, lo cual debuelve el jugador a la fase de navegación.
 
 ## Peces:
-En el lago hay peces merodeando en cada momento. Estos son instanciados durante la ejecución
-MAXIMO????????
-INTERVALO???????????????'
+En el lago hay peces merodeando en cada momento. Estos son instanciados durante la ejecución. Se generarán de uno en uno tras un intervalo de tiempo aleatorio de entre 3 y 7 segundos. A la vez, solo podrá haber 5 peces en el lago, pero cuando uno sea pescado, se podrá volver a generar uno nuevo a no ser que ya se hayan generado un total de 10, que entonces ya no se generarán más.
 
 # Dinámicas:
 El objetivo del juego es pescar todos los peces en el lago, incluyendo los pocos que spawnean tras haber pescado alguno.
-???????????
 
 # Contenido:
 ## Historia:
@@ -139,4 +136,4 @@ Cuando se han pescado todos los peces, aparece una imagen con el mensaje "You Wi
 ![image](https://user-images.githubusercontent.com/62613312/176426069-12687dee-56f6-47c7-90a3-c6fafa5a9005.png)
 
 # Primeros minutos de partida:
-
+Nada mas empezar el juego, se verá el menú principal del juego donde si no sabes lo que tienes que hacer en el juego seleccionarias los botones de "How to play" y "Story" para saber lo que tienes que hacer y después "Start" para jugar. Aparecerás en el lago donde se irán generando poco a poco peces y verás un contador con 10 peces en la parte superior de la pantalla. Tras acercarte a un pez, clickearás espacio para ponerte a pescar y tirarás el anzuelo con el botón izquierdo hacia donde haya un pez. Si lo pescas, verás como el contador de arriba disminuará y tras haber pescado 10 (y que el contador llegue a 0) te aparecerá la pantalla de "YOU WIN" que te indica que ya has ganado el juego, junto con un botón de "Home" para volver al menú principal del juego. 
