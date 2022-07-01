@@ -61,7 +61,7 @@ Al pulsar la tecla P, el movimiento de la cámara se bloquea y aparece el botón
 Si se pulsa la tecla SPACE, el jugador pasa a la fase de Pesca.
 
 ### Pesca
-En la fase de pesca, la cámara se pone en primera persona, y aparece visible la caña con el anzuelo. Al pulsar el botón izquierdo del ratón, el anzuelo se suelta y cae al agua. Si algún pez choca con él desaparece del lago y se considera que este ha sido pescado. El anzuelo solo se recoge si se vuleve a pulsar la tecla SPACE, lo cual debuelve el jugador a la fase de navegación.
+En la fase de pesca, la cámara se pone en primera persona, y aparece visible la caña con el anzuelo. Al pulsar el botón izquierdo del ratón, el anzuelo se suelta y cae al agua, cuanto más tiempo hayas mantenido el botón izquierdo, más fuerte se lanzará. Si algún pez choca con él desaparece del lago y se considera que este ha sido pescado. El anzuelo solo se recoge si se vuleve a pulsar la tecla SPACE, lo cual devuelve el jugador a la fase de navegación.
 
 ## Peces:
 En el lago hay peces merodeando en cada momento. Estos son instanciados durante la ejecución. Se generarán de uno en uno tras un intervalo de tiempo aleatorio de entre 3 y 7 segundos. A la vez, solo podrá haber 5 peces en el lago, pero cuando uno sea pescado, se podrá volver a generar uno nuevo a no ser que ya se hayan generado un total de 10, que entonces ya no se generarán más.
@@ -98,8 +98,6 @@ Ambientación y gráficos Lowpoly inpirado por:
 Assets:
 * [Barca](https://www.kenney.nl/assets/watercraft-pack)
 * [Caña de pescar](https://sketchfab.com/3d-models/fishes-aa31604aa3d446b59775dd9e5a08a9ce)
-
-Peces sacados de:
 * [Peces Carpa, Salmón y Atún](https://sketchfab.com/3d-models/fishes-aa31604aa3d446b59775dd9e5a08a9ce)
 * [Pez Betta](https://sketchfab.com/3d-models/red-betta-fish-e088615fe2934a92be6316782d25f93a)
 * [Pez Payaso](https://sketchfab.com/3d-models/clown-fish-ff433d9d2565435fa2734f99f519a6a9)
@@ -146,4 +144,4 @@ Cuando se han pescado todos los peces, aparece una imagen con el mensaje "You Wi
 ![image](https://user-images.githubusercontent.com/62613312/176426069-12687dee-56f6-47c7-90a3-c6fafa5a9005.png)
 
 # Primeros minutos de partida:
-Nada mas empezar el juego, se verá el menú principal del juego donde si no sabes lo que tienes que hacer en el juego seleccionarias los botones de "How to play" y "Story" para saber lo que tienes que hacer y después "Start" para jugar. Aparecerás en el lago donde se irán generando poco a poco peces y verás un contador con 10 peces en la parte superior de la pantalla. Tras acercarte a un pez, clickearás espacio para ponerte a pescar y tirarás el anzuelo con el botón izquierdo hacia donde haya un pez. Si lo pescas, verás como el contador de arriba disminuará y tras haber pescado 10 (y que el contador llegue a 0) te aparecerá la pantalla de "YOU WIN" que te indica que ya has ganado el juego, junto con un botón de "Home" para volver al menú principal del juego. 
+Nada mas empezar el juego, se verá el menú principal del juego donde si no sabes lo que tienes que hacer en el juego seleccionarías los botones de "How to play" y "Story" para saber lo que tienes que hacer y después "Start" para jugar. Aparecerás en el lago donde se irán generando poco a poco peces y verás un contador con 10 peces en la parte superior de la pantalla. Tras acercarte a un pez, clickearás espacio para ponerte a pescar y tirarás el anzuelo con el botón izquierdo hacia donde haya un pez. Si lo pescas, verás como el contador de arriba disminuará y tras haber pescado 10 (y que el contador llegue a 0) te aparecerá la pantalla de "YOU WIN!" que te indica que ya has ganado el juego, junto con un botón de "Home" para volver al menú principal del juego. 
