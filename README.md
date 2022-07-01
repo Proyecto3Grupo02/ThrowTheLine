@@ -6,7 +6,9 @@ Documento de diseño de juego
 
 **Grupo 2 - Kirin Studios**
 
-|Jonathan Sebastián Andrade Gordillo|Rubén González Ortiz | Álvaro Cuerva Hernández |Sergio Alberto Luis Cano |Javier Meitín Moreno| Nicolás Rosa Caballero | Amparo Rubio Bellón |Rodrigo Tobar Guillén|Jorge Zurdo Izquierdo| |--|--|--|--|--|--|--|--|--|
+|Jonathan Sebastián Andrade Gordillo|Rubén González Ortiz | Álvaro Cuerva Hernández |Sergio Alberto Luis Cano |Javier Meitín Moreno| Nicolás Rosa Caballero | Amparo Rubio Bellón |Rodrigo Tobar Guillén|Jorge Zurdo Izquierdo|
+|--|--|--|--|--|--|--|--|--|
+
 
 | **Géneros:** Exploración, gestión de recursos | **Modos:** Modo historia un jugador |
 | --- | --- |
